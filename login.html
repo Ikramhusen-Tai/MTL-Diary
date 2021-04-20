@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head> <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="./css/Style.css"> <title>Login Form</title>
+</head>
+<body>
+    
+
+<div class="login-wrapper">
+<form class="form"> 
+<img src="./media/login.jpeg"> 
+
+<h2>Login</h2> 
+
+<div class="input-group"> 
+<input type="text" name="loginUser"id="loginUser" required>
+<label for="loginUser">User Name</label>
+</div> 
+
+<div class="input-group"> 
+<input type="password" name="loginPassword" id="loginPassword" required> 
+<label for="loginPassword">Password</label> 
+</div> 
+
+<input type="submit" value="Login" class="submit-btn" onclick="check(this.form)"> 
+
+<a href="#forgot-pw" class="forgot-pw">Forgot Password?</a> </form> 
+
+ 
+</div>
+ 
+
+
+<script language="javascript">
+    function check(form)
+{
+if(form.loginUser.value == "admin" && form.loginPassword.value == "12345")
+{
+  window.open("index.html");
+}
+else
+{
+alert("Invalid Password or Username");
+}
+}
+</script>
+    
+</body>
+    
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Cart</title>
+    
+    <link rel="stylesheet" href="./css/Style.css"> 
+  </head>
+  <body>
+    <div class="branding">
+      <h1 id="web-name"><span id="highlight">MTL  </span ><span id="highlight2">Diary</span></h1> 
+  </div>
+    <header>
+        
+        <div >
+          <a href="#" id="myCart">
+            <ion-icon name="cart-outline"></ion-icon><span>0</span></a>
+        </div>
+        <div class="showcase">
+        </div>
+<div id="navigation">
+<nav id="nav-bar">
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="attractions.html">Attractioins</a></li>
+      <li><a href="auttomn.html">Auttomn</a></li>
+      <li><a href="snowy.html">Snowy</a></li>
+      <li><a href="streets.html">Streets</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+    </header>
+    
+      
+    <div id="body">
+      <h1 class="heading">Your Cart Items...</h1>
+    <div class="product-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <H5 class="total">TOTAL</H5>
+        </div>
+        <div class="products">
+
+        </div>
+    </div>
+
+     
+
+            <!-- <input type="submit" value="Continue to checkout" class="chk_out_btn"> -->
+
+            <h1 class="heading">Checkout Here</h1>
+            <div class="chk_out_row">
+              <div class="col-75">
+                <div class="chk_out_container">
+                  <form id="payment-form">
+                  
+                    <div class="chk_out_row">
+                      <div class="col-50">
+                        <h3>Billing Address</h3>
+                        <div class="input-group">
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                        <p>Full Name must be and contain 5 - 20 characters</p>
+                        </div>
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" placeholder="john@example.com">
+                        <p>Email must be a valid address, eg: john@example.com</p>
+                        
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                        <p>Address must be and contain 10 - 100 characters</p>
+            
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="New York">
+                        <p>City must be and contain 5-12 characters only</p>
+            
+                        <div class="chk_out_row">
+                          <div class="col-50">
+                            <label for="state">State</label>
+                            <input type="text" id="state" name="state" placeholder="NY">
+                            <p>State must be contain 2 UPPER CASE only,eg:(QC)</p>
+                          </div>
+                          
+                          <div class="col-50">
+                            <label for="zip">Zip</label>
+                            <input type="text" id="zip" name="zip" placeholder="10001">
+                            <p>Zipcode must be 6 characters only e.g.(H3H 2P1)</p>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="col-50">
+                        <h3>Payment</h3>
+                        <label for="fname">Accepted Credit Cards</label>
+                        <div class="icon-container">
+                          <i class="fa fa-cc-visa" style="color:navy;"></i>
+                          <i class="fa fa-cc-amex" style="color:blue;"></i>
+                          <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                          <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                        
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                        
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                        <p>Credit Card must be and contain 16 digitwith - between (4 digits) eg:(1111-2222-3333-4444)</p>
+            
+                        <label for="telephone">Telephone</label>
+                        <input type="text" id="telephone" name="telephone" placeholder="438-943-2222(optional)">
+                        <p>Telephone must be a valid Canadian telephone number (10 digits) e.g.(514-111-1111)</p>
+            
+                        <div class="chk_out_row">
+                          <div class="col-50">
+                            <label for="expyear">Card Exp</label>
+                            <input type="text" id="expyear" name="expyear" placeholder="08/23">
+                            <p>Card expiry date must contain 4 digit with / between 2 digits.</p>
+                          </div>
+                          <div class="col-50">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="352">
+                            <p>cvv must contain 3 digit only.</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                     <input type="submit" value="Proceed to checkout" class="chk_out_btn" id="checkOut"> 
+                 
+                </div>
+              </div>
+            </div>
+            
+
+    </div>
+  
+
+    </div>
+    <footer>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+        <p>&copy;MTL Diary - 2020</p> 
+     
+    </footer>
+
+
+    
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+     <script src="./js/main.js"></script>
+  </body>
+</html>
+
+
+<!--
+
+<div class="wrapper">
+  <div class="one">One</div>
+  <div class="two">Two</div>
+  <div class="three">Three</div>
+  <div class="four">Four</div>
+</div>
+
+-->    

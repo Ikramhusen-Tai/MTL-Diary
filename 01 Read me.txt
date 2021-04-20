@@ -1,0 +1,20 @@
+
+Website: MTL Diary
+
+	this website sells photo frame of the montreal's images. it includes different kind of photos on different pages, which are purchasable.
+
+	by clicking on add to cart button product will be added to cart and by clicking on cart it will redirect to cart page whare check-out would be done.
+
+	by clicking on image it will be displayed in a model
+	
+	you can also search product. by searching product with is name page will be scrolled to that product and the product tag will be hilighted and upon clicking on clear button the highlight will be undone 
+
+	first you can open welcome page which will provide the link of longin page. 
+
+	on login page enter admin/12345 id password it will lead to home page
+
+
+Thank 
+
+(All the photos in body section are clicked by myself)
+
